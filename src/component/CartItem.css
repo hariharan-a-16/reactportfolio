@@ -1,0 +1,76 @@
+/* 🧺 CartItem.css - Each product inside the cart */
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+.cart-item-info {
+  flex: 1;
+}
+
+.cart-item-info h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 3px;
+  color: #212121;
+}
+
+.cart-item-info p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.cart-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cart-controls button {
+  border: 1px solid #ccc;
+  background: #fff;
+  color: #333;
+  padding: 3px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cart-controls button:hover {
+  border-color: #2874f0;
+  color: #2874f0;
+}
+
+.cart-qty {
+  min-width: 24px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.cart-price {
+  font-weight: 600;
+  color: #2874f0;
+  margin-left: 10px;
+}
+
+.remove-btn {
+  color: #ff3f3f;
+  font-weight: 500;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: 0.2s;
+  margin-left: 8px;
+}
+
+.remove-btn:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,96 @@
+/* 🛒 CartSidebar.css - Flipkart/Myntra style sidebar cart */
+
+.cart-sidebar {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  height: fit-content;
+  min-width: 320px;
+  position: sticky;
+  top: 20px;
+}
+
+.cart-sidebar h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  border-bottom: 2px solid #2874f0;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+  color: #212121;
+}
+
+.empty-cart {
+  text-align: center;
+  color: #777;
+  padding: 40px 0;
+  font-size: 0.95rem;
+}
+
+.cart-items {
+  max-height: 320px;
+  overflow-y: auto;
+  margin-bottom: 15px;
+  scrollbar-width: thin;
+}
+
+/* Scrollbar Styling */
+.cart-items::-webkit-scrollbar {
+  width: 5px;
+}
+.cart-items::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+/* Summary Section */
+.cart-summary {
+  border-top: 1px solid #e0e0e0;
+  padding-top: 12px;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.cart-total span:last-child {
+  color: #2874f0;
+}
+
+.checkout-btn {
+  width: 100%;
+  background: #2874f0;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-bottom: 8px;
+}
+
+.checkout-btn:hover {
+  background: #0b59d0;
+}
+
+.clear-btn {
+  width: 100%;
+  background: transparent;
+  color: #ff3f3f;
+  font-weight: 600;
+  border: 1px solid #ff3f3f;
+  border-radius: 6px;
+  padding: 9px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.clear-btn:hover {
+  background: #ff3f3f;
+  color: white;
+}
